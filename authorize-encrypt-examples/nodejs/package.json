@@ -1,0 +1,14 @@
+{
+  "name": "consent-encrypt",
+  "version": "1.0.0",
+  "description": "Example of OIDC Authorize request encryption for Signicat OIDC server in node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "dagsne@signicat.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-jose": "^1.1.3"
+  }
+}
