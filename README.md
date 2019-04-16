@@ -22,5 +22,6 @@ See [./authorize-encrypt-examples/](./authorize-encrypt-examples/) for more info
 
 ## **py-ftn-example**
 
+How to perform an OIDC flow with Full Message-Level Encryption, as specified in the requirements for FTN (Finnish Trust Network).
+
 See [./py-ftn-example/](./py-ftn-example/) for more information.
-Recommended to use pipenv.
