@@ -1,4 +1,4 @@
-# Functional Example of "Full Message-Level Encryption" for FTN (Finnish Trust Network)
+# Functional Example of "Full Message-Level Encryption" for FTN
 
 ---
 

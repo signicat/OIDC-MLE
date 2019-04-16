@@ -9,7 +9,7 @@ Very simple implementation of how to prepare an encrypted Authorize request, in 
 * Python
 * node.js
 
-## Instructions
+## Usage
 
 ### C\#
 
@@ -27,7 +27,7 @@ Requires maven.
 
 Requires pipenv.
 
-`pipenv shell` & `pipenv run python ConsentEncrypt.py` should do the trick.
+`pipenv install` & `pipenv run python ConsentEncrypt.py` should do the trick.
 
 ### node.js
 
