@@ -36,7 +36,7 @@ def main():
     payload = {
         "ui_locales": "en",
         "scope": "openid profile",
-        "acr_values": "urn:signicat:oidc:method:ftn-nordea-auth",
+        "acr_values": "urn:signicat:oidc:method:ftn-op-auth",
         "response_type": "code",
         "redirect_uri": "https://labs.signicat.com/redirect",
         "state": "ABCDEF0123456789",
