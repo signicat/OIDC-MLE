@@ -36,7 +36,7 @@ def main():
     payload = {
         "ui_locales": "en",
         "scope": "openid profile",
-        "acr_values": "urn:signicat:oidc:method:ftn-nordea-auth",
+        "acr_values": "urn:signicat:oidc:method:ftn-op-auth",
         "response_type": "code",
         "redirect_uri": "https://labs.signicat.com/redirect",
         "state": "ABCDEF0123456789",
@@ -68,6 +68,7 @@ def main():
 
     # STEP 3: Process our ID token.
     payload_idtoken = processResponse(idt, full_key, sigpub_key)
+    print("\nActual ID token:\n{}".format(idt))
     print("\nDecrypting ID token ({} bytes)... Done!".format(len(idt)))
     print("\nSigned token (JWS) - inside the ID token JWE:\n{}".format(payload_idtoken[0]))
     print("\nDecrypted ID token payload:\n{}\n".format(payload_idtoken[1]))
@@ -80,6 +81,7 @@ def main():
 
     # STEP 5: Process our UserInfo response.
     payload_idtoken = processResponse(res2, full_key, sigpub_key)
+    print("\nActual UserInfo response:\n{}".format(res2))
     print("\nDecrypting UserInfo ({} bytes)... Done!".format(len(res2)))
     print("\nSigned token (JWS) - inside the UserInfo JWE:\n{}".format(payload_idtoken[0]))
     print("\nDecrypted UserInfo:\n{}".format(payload_idtoken[1]))
