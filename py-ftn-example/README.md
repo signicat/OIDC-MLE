@@ -6,8 +6,7 @@ This shows how to perform an OIDC flow with Full Message-Level Encryption, as sp
 
 ## Instructions
 
-Please refer to our official documentation on [Full Message-Level Encryption For FTN
-](https://developer.signicat.com/documentation/finnish-trust-network/full-message-level-encryption-for-ftn/).
+Please refer to our official documentation on [Full Message-Level Encryption For FTN](https://developer.signicat.com/enterprise/identity-methods/ftn/#full-message-level-encryption).
 
 ## Usage
 
